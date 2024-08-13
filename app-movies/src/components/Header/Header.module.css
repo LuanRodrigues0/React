@@ -4,5 +4,26 @@
     background-color: var(--primary);
     color: white;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
+}
+
+header span{
+    font-size: 1.5rem; /*24px-> 16px = 1rem*/
+    font-weight: bold;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--white);
+    padding-right: 1.5rem;
+    font-size: 1.125rem;
+    transition: all 1s;
+}
+
+header a:hover{
+    color: var(--red);
+    
 }
