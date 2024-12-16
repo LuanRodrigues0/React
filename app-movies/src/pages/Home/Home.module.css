@@ -1,0 +1,44 @@
+/* Css da page home */
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home img{
+    height: 400px;
+}
+
+.home p {
+    font-size: 3rem; /*48px*/
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.home span{
+    color: var(--terceary);
+
+}
+
+.btn{
+    width: 250px;
+    height: 50px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn_blue{
+    background-color: var(--terceary);
+    color: var(--white);
+}
+
+.btn_blue:hover{
+    background-color: var(--primary);
+}
