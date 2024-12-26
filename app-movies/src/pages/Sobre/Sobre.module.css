@@ -1,0 +1,63 @@
+
+.sobre{
+    width:  100%;
+    height: 85vh;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+.bio span{
+    color: var(--red);
+    font-weight: bold;
+}
+
+.bio strong{
+    color: var(--secondary);
+    font-weight: bold;
+
+}
+
+.biografia h2, p{
+    margin-bottom: 1rem;
+
+}
+
+
+.avatar{
+    height: 200px;
+    width: 200px;
+    
+    
+    border-radius: 50%;
+    
+    
+}
+
+.techs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons img{
+    height: 50px;
+    
+}
