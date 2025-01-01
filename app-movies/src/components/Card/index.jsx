@@ -4,7 +4,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { LuSquareArrowRight } from "react-icons/lu";
-import { Link } from 'react-router-dom';
+
 
 // eslint-disable-next-line react/prop-types
 function Card({name, description, html_url}) {
@@ -20,9 +20,9 @@ function Card({name, description, html_url}) {
                    <FaReact />
                   
                </div>
-               <Link to={html_url} className={style.card_botao}>
+               <a href={html_url} target='_blank' rel='noopenner norefferer' className={style.card_botao}>
                   <LuSquareArrowRight />
-               </Link>
+               </a>
           </div>
 
        </section>  
