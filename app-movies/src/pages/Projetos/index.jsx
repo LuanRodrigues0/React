@@ -27,7 +27,14 @@ function Projetos(){
                 <section className={styles.lista}>
                   {
                      repositores.map((repo) =>(
-                        <Card name={repo.name}/>
+                       <Card
+                           key={repo.id}
+                           name={repo.name}
+                           description={repo.description}
+                           html_url={repo.html_url}
+                        
+                         />
+
                      ))
                   }
                 
