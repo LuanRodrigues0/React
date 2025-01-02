@@ -2,11 +2,13 @@
 
 .home{
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly; /*space-around*/
+    
+
 }
 
 .home img{
@@ -41,4 +43,26 @@
 
 .btn_blue:hover{
     background-color: var(--primary);
+}
+
+/*Aula 11 extra 01 responsividade */
+
+@media (max-width: 768px){
+    .home{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 492px){
+   .home p{
+     font-size: 2rem;
+   } 
+
+   .home img{
+
+     max-width: 85%;
+     height: auto ;
+     padding-inline: 2.5rem;
+
+   }
 }

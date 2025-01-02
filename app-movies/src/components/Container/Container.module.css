@@ -6,6 +6,8 @@
     flex-direction: column;
     align-items: center;
     
-    padding-block: 1rem;
+    padding-block: 45px; /* era 1 rem */
     gap: 1rem;
+
+    
 }
