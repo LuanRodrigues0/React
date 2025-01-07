@@ -23,3 +23,17 @@
     font-size: 2.3rem;
     color: var(--red);
 }
+
+/*Tablet*/
+@media(max-width: 768px){
+    .contatos{
+        padding-inline: 20px ;
+    }
+}
+
+/*Mobile*/
+@media(max-width: 493px){
+    .icones{
+        gap: 0.5rem;
+    }
+}
